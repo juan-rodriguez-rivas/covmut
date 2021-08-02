@@ -45,13 +45,13 @@ export PYTHONPATH=$PYTHONPATH:/path/covmut
 
 Add required packages in julia:
 ```
-julia
-]
-add FastaIO
-add NPZ
-add ArgParse
-add https://github.com/pagnani/PlmDCA
-add https://github.com/carlobaldassi/GaussDCA.jl
+~$ julia
+julia> ]
+(@v1.6) pkg> add FastaIO
+(@v1.6) pkg> add NPZ
+(@v1.6) pkg> add ArgParse
+(@v1.6) pkg> add https://github.com/pagnani/PlmDCA
+(@v1.6) pkg> add https://github.com/carlobaldassi/GaussDCA.jl
 ```
 
 Any feedback is most welcome, do not hesitate to create an issue or contact me
