@@ -52,7 +52,7 @@ add https://github.com/pagnani/PlmDCA
 add https://github.com/carlobaldassi/GaussDCA.jl
 ```
 
-Any feedback is most welcome, do not hesitate to create an issue or write me
+Any feedback is most welcome, do not hesitate to create an issue or contact me
 
 
 
