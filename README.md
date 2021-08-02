@@ -10,3 +10,6 @@ covmut_sequence.py requires an input FASTA file with the query sequence, an iden
 covmut_proteome.py requires an input FASTA file with the query proteome, a HMM file with the protein domain profile of interest, two sequence databases (one with a set of diverse proteome, e.g. uniref90, and one for local sequences close to the query, e.g. GISAID for SARS-CoV-2), and an output directory. More information can be found by running `covmut_proteome.py -h`. The usage summary is:
 > usage: covmut_proteome.py [-h] -p FASTA_PROTEOME -hmm HMM_FILE -db DATABASE -g DATABASE_GISAID [-it ITERATIONS] [-m MODE] [-cpus NUM_CPUS] [-nt NUCLEOTIDE_GENOME] -o OUTPUT_DI
 
+In the subdirectoty testing, a small dataset is provided to be able to check that it is running properly.
+
+
