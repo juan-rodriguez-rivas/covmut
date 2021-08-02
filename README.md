@@ -1,5 +1,6 @@
-# covmut
+# CovMut
 
+## Introduction
 Covmuts is a software to build sequence-based models in order to predict the mutability of each position in protein domains. It computes both an indenpendent model and an epistitatic model. The former assumes independence between positions of the domains while the latter considerer pairwise dependecies between positions, providing, in the vast majority of cases, a better prediction of the mutability.
 
 Two different interfaces are given, covmut_sequence.py makes a prediction for a single sequence while covmut_proteome.py performs the predicition for an entire proteome.
@@ -13,3 +14,4 @@ covmut_proteome.py requires an input FASTA file with the query proteome, a HMM f
 In the subdirectoty testing, a small dataset is provided to be able to check that it is running properly.
 
 
+## Installation
