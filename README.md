@@ -59,18 +59,18 @@ Any feedback is most welcome, do not hesitate to create an issue or contact me
 ## Acknowledgements
 
 CovMut uses the following software:
-* [HMMER] (http://hmmer.org/)
-* [HHSuite] (https://github.com/soedinglab/hh-suite)
-* [MAFFT] (https://mafft.cbrc.jp/alignment/software/)
-* [Numpy] (https://numpy.org/)
-* [Pandas] (https://pandas.pydata.org/)
-* [biopython] (https://biopython.org/)
-* [Pagnani's plmDCA implementation] (https://github.com/pagnani/PlmDCA)
-* [GaussDCA] (https://github.com/carlobaldassi/GaussDCA.jl)
-* [FastaIO] (https://github.com/carlobaldassi/FastaIO.jl)
-* [NPZ] (https://github.com/fhs/NPZ.jl)
-* [python] (https://www.python.org/)
-* [julia] (https://julialang.org/)
+* [HMMER](http://hmmer.org/)
+* [HHSuite](https://github.com/soedinglab/hh-suite)
+* [MAFFT](https://mafft.cbrc.jp/alignment/software/)
+* [Numpy](https://numpy.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [biopython](https://biopython.org/)
+* [Pagnani's plmDCA implementation](https://github.com/pagnani/PlmDCA)
+* [GaussDCA](https://github.com/carlobaldassi/GaussDCA.jl)
+* [FastaIO](https://github.com/carlobaldassi/FastaIO.jl)
+* [NPZ](https://github.com/fhs/NPZ.jl)
+* [python](https://www.python.org/)
+* [julia](https://julialang.org/)
 
 
 
