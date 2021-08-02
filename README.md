@@ -16,20 +16,30 @@ In the subdirectoty testing, a small dataset is provided to be able to check tha
 
 ## Installation
 CovMut is wrote in python (tested in 3.9.5 and 3.8.5) and julia (tested in 1.6.1). They can be installed using the package manager:
-`sudo apt install python3 julia`
+```
+sudo apt install python3 julia
+```
 In case of problems with the default version of julia, the specific version (1.6.X) can be found at https://julialang.org/downloads/
 
 MAFFT, HHSUITE and HMMER are required to run CovMut:
-`sudo apt install hmmer hhsuite mafft`
+```
+sudo apt install hmmer hhsuite mafft
+```
 
 reformat.pl from hhsuite is used, check if it's in the path or add to the path (e.g. in ~/.bashrc, the default path typically is /usr/share/hhsuite/scripts/):
-`export PATH=$PATH:/usr/share/hhsuite/scripts`
+```
+export PATH=$PATH:/usr/share/hhsuite/scripts
+```
 
 Install the required python packages (e.g. using conda packge manager, https://docs.conda.io/en/latest/miniconda.html):
-`conda install biopython pandas numpy`
+```
+conda install biopython pandas numpy
+```
 
 Add covmut to python library path (e.g. in ~/.bashrc):
-`export PYTHONPATH=$PYTHONPATH:/path/covmut`
+```
+export PYTHONPATH=$PYTHONPATH:/path/covmut
+```
 
 Add required packages in julia:
 ```
