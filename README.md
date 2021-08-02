@@ -45,6 +45,8 @@ export PYTHONPATH=$PYTHONPATH:/path/covmut
 
 Add required packages in julia:
 ```
+julia
+]
 add FastaIO
 add NPZ
 add ArgParse
