@@ -3,6 +3,8 @@
 ## Introduction
 Covmuts is a software to build sequence-based models in order to predict the mutability of each position in protein domains. It computes both an indenpendent model and an epistitatic model. The former assumes independence between positions of the domains while the latter considerer pairwise dependecies between positions, providing, in the vast majority of cases, a better prediction of the mutability.
 
+More information about the application of CovMut for SARS-CoV-2 can be found at https://github.com/GiancarloCroce/DCA_SARS-CoV-2 and 
+
 Two different interfaces are given, covmut_sequence.py makes a prediction for a single sequence while covmut_proteome.py performs the predicition for an entire proteome.
 
 covmut_sequence.py requires an input FASTA file with the query sequence, an identifier (root for output files), a target sequence database, and an output directory. More information can be found by running `covmut_sequence.py -h`. The usage summary is:
@@ -49,6 +51,7 @@ add ArgParse
 add https://github.com/pagnani/PlmDCA
 add https://github.com/carlobaldassi/GaussDCA.jl
 ```
+
 
 
 
