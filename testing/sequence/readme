@@ -1,0 +1,6 @@
+To check covmut_sequence.py run properly, execute the bash file run_test.bash in this directory
+
+The test may take a few minutes to finish. Once finished, the output predictions from covmut for this test can be found in the output subdirectory
+
+
+
